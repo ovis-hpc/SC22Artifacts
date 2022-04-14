@@ -1,0 +1,2 @@
+hpc_cluster_env.log : collect_environment.sh result for HPC system (filtered for security)
+monitoring_cluster_env.log : collect_environment.sh result for monitoring/analysis cluster (filtered for security)

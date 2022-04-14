@@ -1,0 +1,5 @@
+Artifacts related to Streams overhead testing (Section VI-A) (Kernel sampling percentages of 0, 0.1, 1, 10). Note that 0.1 is called "01" in the filename.
+        
+        
+*overhead_run_#percent.csv - output files with run number and duration of jobs with # percent kokkos kernels sampled. Numbering of runs is in order of experimentation.
+        

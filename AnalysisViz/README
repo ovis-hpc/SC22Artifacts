@@ -1,0 +1,7 @@
+Artifacts related to analysis, query, and display:
+* compMinMeanMaxDSOS.py - python analysis module to compute Min/Mean/Max of data in DSOS database
+* cpuTSDSOS.py - python analysis module to compute CPU-related utilization values as a timeseries from data in DSOS database
+* grafanadash.json - json dump of the Grafana dashboard displaying application and system metrics
+* kokkosFuncTableDSOS.py - python analysis module to compute kokkos kernel statistics (e.g., count of a kernel, time spent in calls etc) that will be displayed in the function table
+* kokkosProgressDSOS.py - python analysis module to compute kokkos progress metrics (e.g., total kernel count, kernels/minute) as a timeseries from data in a DSOS database
+* singleMetricRateTSDSOS.py - python analysis module to compute the rate of a single metric as a timeseries from data in DSOS database

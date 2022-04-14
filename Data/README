@@ -1,0 +1,13 @@
+Experimental data artifacts for runs in Section V.
+
+* ldms_daily_runtimes.csv: This is a list of elaspsed runtimes of the successful daily runs of EMPIRE in-the-wild (Section V-B). Job numbering is arbitrary.
+
+* ldms_runtimes_jobid_1-4.csv: This is a list of elaspsed runtimes of the 4 (longer walltime) runs in Section V-C. Numbering is the same as Table I.
+        
+The following detailed data files are for the runs in Section V-C, one of each type per job. Numbering is the same as Table I.
+        
+* ldms_kokkos_artifacts_jobid_#.csv: This file contains the anonymized data for the kernel functions collected by LDMS from Kokkos. The following information was collected for each kernel function call collected: timestamp,node_name, job_id, rank, name, type, current_kernel_count, total_kernel_count, level, current_kernel_time, and total_kernel_time.
+
+* ldms_procstat_artifacts_jobid_#.csv: This file contains the anaonymized data for the procstat data collected by LDMS for the specific application and their runs. The following information was collected: timestamp, component_id, job_id, user, nice, sys, idle, iowait, irq, softirq, steal, guest, guest_nice.
+
+* ldms_meminfo_artifacts_jobid_#.csv: This file contains the anonymized data for the meminfo data collected by LDMS for the specific application and their runs. The following information was collected: timestamp, component_id, job_id, app_id, MemTotal, MemFree, MemAvailable, Buffers, Cached, SwapCached, Active, Inactive, Active(anon), Inactive(anon), Active(file), Inactive(file), Unevictable, Mlocked, SwapTotal, SwapFree, Dirty, Writeback, AnonPages, Mapped, Shmem, Slab, SReclaimable, SUnreclaim, KernelStack, PageTables, NFS_Unstable, Bounce, WritebackTmp, CommitLimit, Committed_AS, VmallocTotal, VmallocUsed, VmallocChunk, Percpu, HardwareCorrupted, AnonHugePages, CmaTotal, CmaFree, HugePages_Total, HugePages_Free, HugePages_Rsvd, HugePages_Surp, Hugepagesize, DirectMap4k, DirectMap2M, DirectMap1G
